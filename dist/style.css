@@ -636,6 +636,10 @@ video {
   top: 50%;
 }
 
+.right-\[-6\%\] {
+  right: -6%;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -952,6 +956,26 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-x-clip {
+  overflow-x: clip;
 }
 
 .whitespace-nowrap {
