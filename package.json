@@ -1,0 +1,28 @@
+{
+  "name": "pamtech-group",
+  "version": "1.0.0",
+  "description": "The Landing Page of Pamtech Group.",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/main.css -o ./dist/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hossanadev/pamtech-group.git"
+  },
+  "keywords": [
+    "pamtech"
+  ],
+  "author": "Hossanadev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hossanadev/pamtech-group/issues"
+  },
+  "homepage": "https://github.com/Hossanadev/pamtech-group#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  }
+}
