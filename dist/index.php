@@ -6,7 +6,7 @@
                 />
                 <div class="my-auto top-[25%] absolute max-md:mx-[4%] mx-[8%] space-y-5">
                     <p class="border-l-4 px-2 border-yellow-500 text-yellow-500 md:text-xl font-semibold">My Values
-                        <span class="text-sm font-normal block">I strongly believe in doing business the right way all the time.</span>
+                        <span id="my_values" class="text-sm font-normal block">I strongly believe in doing business the right way all the time.</span>
                     </p>
                     <div class="block text-white max-md:mt-5 text-xl md:text-4xl font-bold">
                         <p class="pb-1.5 pt-2 text-white/90">Hossana Chukwunyere</p>

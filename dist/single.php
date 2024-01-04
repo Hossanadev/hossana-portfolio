@@ -28,10 +28,15 @@
                                 <div class="text-[15px] font-normal text-[#6e6e6e]"><?php echo get_the_date(); ?></div>
                             </div>
                         </div>
-                        <div class="text-[15px] text-[#6e6e6e] mt-4">
-                            <?php echo the_content(); ?>
-                        </div>
-                <?php endwhile; ?>
+                <div class="text-[15px] text-[#6e6e6e] mt-4">
+                    <?php
+                    $post_content = get_the_content();
+                    $formatted_content = preg_replace('/<p(.*?)>(.*?)<\/p>/', '<p class="pb-5">$2</p>', $post_content);
+                    echo $formatted_content;
+                    ?>
+                </div>
+
+            <?php endwhile; ?>
         <?php else: ?>
             <?php echo wpautop('No posts found.') ?>
         <?php endif; ?>

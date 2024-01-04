@@ -1,6 +1,6 @@
 </main>
 <div class="relative md:h-20 w-full bg-black/70 text-white max-md:flex-col flex items-center justify-between">
-    <p class="pt-2 px-[4%] md:px-[8%] py-2 max-md:text-center text-[15px] text-yellow-500">Sign up to receive my exclusive newsletters.</p>
+    <p class="pt-2 px-[4%] md:px-[8%] py-2 max-md:text-center text-[15px] text-yellow-500">Sign up to get my exclusive newsletters.</p>
     <label for="email" class="pb-2 px-[4%] max-sm:py-0 max-sm:mb-3.5 py-2 md:px-[8%] flex items-center max-md:justify-center">
         <input id="email" type="email" class="h-8 text-black/90 py-2 px-3.5 rounded-l-sm focus:outline-none focus:ring-0 focus:border-0" placeholder="Enter your email" />
         <button id="signup" type="button" class="bg-[#007bff] cursor-pointer transition-all duration-500 py-1 whitespace-nowrap px-3.5 rounded-r-sm text-white">Sign up</button>
@@ -17,7 +17,7 @@
             <p class="text-black/80">+234 9068142185</p>
         </div>
     </div>
-    <div class="flex items-center space-x-2 max-md:space-y-2">
+    <div class="flex items-center space-x-2">
         <div class="w-10 h-10 flex justify-center items-center bg-[#007bff] rounded-xs">
             <ion-icon class="text-xl" color="white" name="location"></ion-icon>
         </div>
@@ -32,7 +32,7 @@
         </div>
         <div class="text-[13px] text-black font-medium">
             <p class="text-sm font-semibold">Email</p>
-            <p class="text-black/80">info@hossanadev.com</p>
+            <p class="text-black/80">hossanadev@gmail.com</p>
         </div>
     </div>
 </div>
