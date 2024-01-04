@@ -48,9 +48,10 @@
                 };
                 ?>
             </div>
-            <?php
+            <a href="<?php echo home_url(); ?>"><?php
             bloginfo('name');
             ?>
+            </a>
         </div>
         <p class="text-sm text-black/80">Excellence is the way of life.<br>
             Of course, I distinguish myself through innovation, <br> accountability,

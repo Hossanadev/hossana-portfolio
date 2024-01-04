@@ -21,9 +21,10 @@
                     };
                   ?>
               </div>
-             <?php
-              bloginfo('name');
-             ?>
+             <a href="<?php echo home_url(); ?>"><?php
+                 bloginfo('name');
+                 ?>
+             </a>
         </div>
         <!-- navigation menu-->
         <nav class="lg:block hidden text-sm font-normal">
