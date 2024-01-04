@@ -1,25 +1,25 @@
 {
-  "name": "pamtech-group",
+  "name": "hossana-portfolio",
   "version": "1.0.0",
-  "description": "The Landing Page of Pamtech Group.",
-  "main": "script.js",
+  "description": "Hossana portfolio.",
+  "main": "dist/script.js",
   "scripts": {
     "build": "npx tailwindcss -i ./src/main.css -o ./dist/style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hossanadev/pamtech-group.git"
+    "url": "git+https://github.com/Hossanadev/hossana-portfolio.git"
   },
   "keywords": [
-    "pamtech"
+    "Hossanadev", "portfolio"
   ],
   "author": "Hossanadev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hossanadev/pamtech-group/issues"
+    "url": "https://github.com/Hossanadev/hossana-portfolio/issues"
   },
-  "homepage": "https://github.com/Hossanadev/pamtech-group#readme",
+  "homepage": "https://github.com/Hossanadev/hossana-portfolio#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
