@@ -2,10 +2,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     let wordsArray = [
         "Prioritize creating interfaces that are user-friendly, intuitive, and visually appealing.",
-        "Embrace a mindset of ongoing learning to stay updated with the latest frontend technologies.",
+        "Embrace a mindset of ongoing learning to stay updated with the latest technologies.",
         "Work seamlessly with cross-functional teams, fostering open communication and collaboration.",
         "Strive for excellence in code quality and performance to deliver efficient solutions.",
-        "Stay flexible and open to adopting new tools and frameworks in the rapidly evolving frontend landscape."
+        "Stay flexible and open to adopting new technologies in the frontend landscape."
     ];
     let currentIndex = 0;
 
