@@ -14,7 +14,7 @@
                     Experienced frontend engineer, demonstrating expertise in crafting <br class="hidden md:block"> engaging and visually appealing user interfaces.<br>
                     Currently, exploring Rust programming. #Hossanadev.
                 </span>
-                        <button id="download_cv" class="bg-[#007bff] flex items-center space-x-3 hover:bg-blue-800 text-[15px] my-3.5 font-semibold cursor-pointer transition-all duration-500 px-3.5 rounded-sm text-white">
+                        <button id="download_cv" class="hover:bg-[#007bff] flex items-center space-x-3 bg-blue-800 text-[15px] my-3.5 font-semibold cursor-pointer transition-all duration-500 px-3.5 rounded-sm text-white">
                             <ion-icon class="text-xl" name="return-down-forward-outline"></ion-icon>
                             <span>Download CV</span>
                         </button>

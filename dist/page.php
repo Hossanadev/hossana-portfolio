@@ -17,7 +17,7 @@
                     <div class="text-[15px] font-normal text-[#6e6e6e]">
                         <div class="flex items-center space-x-2">
                             <ion-icon name="person"></ion-icon>
-                            <span class="text-[#007bff]">
+                            <span class="text-[#0000FF]">
                                     <a href="https://www.linkedin.com/in/hossanadev"><?php echo get_the_author(); ?></a>
                                 </span>
                         </div>
@@ -178,11 +178,11 @@
                 <div>
                     <p class="font-medium text-black/80 -mt-2">Personal</p>
                     <span class="text-black/60 font-semibold">
-                    <a class="text-[#007bff]" href="https://github.com/hossanadev/guess-right">guess-right</a>,
-                    <a class="text-[#007bff]" href="https://github.com/Hossanadev/url-shortener">url shortener</a>,
-                    <a class="text-[#007bff]" href="https://github.com/Hossanadev/job-portal">jobs portal</a>,
-                    <a class="text-[#007bff]" href="https://hossanadev.com">Hossana portfolio</a>,
-                    <a class="text-[#007bff]" href="https://github.com/Hossanadev">others.</a>
+                    <a class="text-[#0000FF]" href="https://github.com/hossanadev/guess-right">guess-right</a>,
+                    <a class="text-[#0000FF]" href="https://github.com/Hossanadev/url-shortener">url shortener</a>,
+                    <a class="text-[#0000FF]" href="https://github.com/Hossanadev/job-portal">jobs portal</a>,
+                    <a class="text-[#0000FF]" href="https://hossanadev.com">Hossana portfolio</a>,
+                    <a class="text-[#0000FF]" href="https://github.com/Hossanadev">others.</a>
                     </span>
                 </div>
                 </div>
@@ -238,7 +238,7 @@
                 </div>
                 </div>                
             </div>
-            <button id="download_cv" class="mt-4 py-1.5 bg-[#007bff] flex items-center space-x-3 hover:bg-blue-800 text-[15px] font-semibold cursor-pointer transition-all duration-500 px-3.5 rounded-sm text-white">
+            <button id="download_cv" class="mt-4 py-1.5 bg-[#0000FF] flex items-center space-x-3 hover:bg-blue-800 text-[15px] font-semibold cursor-pointer transition-all duration-500 px-3.5 rounded-sm text-white">
                  <ion-icon class="text-xl" name="return-down-forward-outline"></ion-icon>
                  <span>Download CV</span>
             </button>                
@@ -249,14 +249,14 @@
 
         <?php
           if (is_page('Contact')) {
-            echo 'I am open to work. If you need my service, please <a href="mailto:hossanadev@gmail.com" class="text-[#007bff]">contact me</a>.';
+            echo 'I am open to work. If you need my service, please <a href="mailto:hossanadev@gmail.com" class="text-[#0000FF] underline">contact me</a>.';
           }
         ?>
 
         <?php
         if (is_page('About')) {
             echo '
-              Hi there, I am <a href="https://www.linkedin.com/in/hossanadev/" class="text-[#007bff]">Hossana Chukwunyere</a>, Hossanadev, a Frontend Engineer at Doftwerks. 
+              Hi there, I am <a href="https://www.linkedin.com/in/hossanadev/" class="text-[#0000FF] underline hover:text-[#007bff]">Hossana Chukwunyere</a>, Hossanadev, a Frontend Engineer at Doftwerks. 
               I specialize in crafting user-friendly and visually appealing interfaces to enhance the overall user experience. 
               Outside of coding, I love reading, playing football, and I am always excited to connect with fellow professionals in the industry.
             ';}

@@ -18,20 +18,24 @@ document.addEventListener('DOMContentLoaded', function() {
     hamburger.addEventListener('click', () => {
         mobile_menu.classList.toggle('-translate-x-[-100%]');
     });
-    cv.addEventListener('click', () => {
-        var pdfUrl = 'http://localhost/wordpress/wp-content/uploads/2024/01/cv.pdf';
-        var a = document.createElement('a');
-        a.download = 'hossana-chukwunyere.pdf';
-        a.href = pdfUrl;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-    })
+    if (cv) {
+        cv.addEventListener('click', () => {
+            var pdfUrl = 'http://localhost/wordpress/wp-content/uploads/2024/01/cv.pdf';
+            var a = document.createElement('a');
+            a.download = 'hossana-chukwunyere.pdf';
+            a.href = pdfUrl;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        })
+    }
     sign_up.addEventListener('click', (e) => {
         e.preventDefault();
     })
     function updateText() {
-        my_values.textContent = wordsArray[currentIndex];
+        if (my_values) {
+            my_values.textContent = wordsArray[currentIndex];
+        }
         currentIndex = (currentIndex + 1) % wordsArray.length;
     }
     updateText();

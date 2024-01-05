@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>">
 <head>
+    <meta name="robots" content="index, follow">
     <meta charset='<?php bloginfo('charset'); ?>'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hossanadev - Software Engineer</title>
+    <meta name='description' content='Hossanadev | Software Engineer, Frontend Developer, and Web Designer.'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="assets/img/favicon.png" rel="icon">
     <?php wp_meta(); ?>
