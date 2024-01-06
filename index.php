@@ -1,6 +1,6 @@
 <?php get_header(); ?>
         <div class="w-full h-[430px] md:h-[530px] bg-black/80 relative">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/hero.jpg"
+                <img src="<?php echo get_template_directory_uri(); ?>/images/hero.jpg"
                      class="w-full h-[430px] md:h-[530px] absolute object-cover -z-10"
                      alt="Hossanadev"
                 />
@@ -28,7 +28,7 @@
             </p>
             <div class="mt-5 flex items-center justify-between h-[300px]">
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] md:border-l-[2px] border-dashed border-[#007bff] max-xl:rounded-full xl:rounded-tr-full relative">
-                    <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/web_development.webp" alt="Hossanadev | Web development" />
+                    <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/images/web_development.webp" alt="Hossanadev | Web development" />
                     <div class="absolute bg-blue-300/30 w-[200px] h-[200px] -top-5 -right-[5%] rounded-full -z-10"></div>
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-16 right-[-5%] rounded-full -z-10"></div>
                 </div>
@@ -38,8 +38,8 @@
                 </div>
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] flex justify-center items-center">
                     <div class="text-[15px]">
-                        <p class="max-sm:text-[16px] text-xl text-black/70 font-bold mb-1.5">Web Development</p>
-                        <p class="">
+                        <h2 class="max-sm:text-[16px] text-xl text-black/70 font-bold mb-1.5">Web Development</h2>
+                        <p class="text-black/70">
                             I develop websites, web apps
                             in a way that guarantees easy maintenance and scalability.
                             Smooth user experience, great performance
@@ -51,8 +51,8 @@
             <div class="flex items-center justify-between h-[300px]">
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] flex justify-center items-center">
                     <div class="text-[15px]">
-                        <p class="max-sm:text-[16px] text-xl text-black/70 font-bold mb-1.5">Mobile App Development</p>
-                        <p>
+                        <h2 class="max-sm:text-[16px] text-xl text-black/70 font-bold mb-1.5">Mobile App Development</h2>
+                        <p class="text-black/70">
                             I develop mobile apps that are user-friendly, interactive and easy to use.
                             The applications are optimized for both Android and iOS.
                         </p>
@@ -63,14 +63,14 @@
                     <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                 </div>
                 <div class="xl:w-[500px] overflow-none xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] md:border-r-[2px] border-dashed border-[#007bff] max-xl:rounded-full xl:rounded-tl-full relative">
-                    <img class="w-full max-xl:rounded-full xl:rounded-tl-full h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/mobile_development.svg" alt="Hossanadev | Mobile development" />
+                    <img class="w-full max-xl:rounded-full xl:rounded-tl-full h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/images/mobile_development.svg" alt="Hossanadev | Mobile development" />
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-[-15%] right-[-6%] rounded -z-10"></div>
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-[-19%] right-[-10%] rounded -z-10"></div>
                 </div>
             </div>
             <div class="flex items-center justify-between h-[300px]">
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] md:border-l-[2px] border-dashed border-[#007bff] max-xl:rounded-full xl:rounded-tr-[100%] lg:rounded-br-[100%] relative">
-                    <img class="w-full max-lg:rounded-full xl:rounded-tr-[100%] xl:rounded-br-[100%] h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/blogging.png" alt="Hossanadev | Blogging" />
+                    <img class="w-full max-lg:rounded-full xl:rounded-tr-[100%] xl:rounded-br-[100%] h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/images/blogging.png" alt="Hossanadev | Blogging" />
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-[-15%] max-sm:left-[-25%] left-[-10%] rounded -z-10 rotate-45"></div>
                     <div class="absolute bg-blue-300/30 max-sm:w-[150px] max-sm:h-[150px] w-[200px] h-[200px] top-[-25%] max-sm:top-[-15%] left-[5%] rounded-full -z-10"></div>
                 </div>
@@ -80,8 +80,8 @@
                 </div>
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] flex justify-center items-center">
                     <div class="text-[15px]">
-                        <p class="max-sm:text-[16px] text-xl text-black/70 font-bold">Blogging & SEO</p>
-                        <p>
+                        <h2 class="max-sm:text-[16px] text-xl text-black/70 font-bold">Blogging & SEO</h2>
+                        <p class="text-black/70">
                             With over 6 years of experience, I enhance website domain visibility,
                             keywords ranking, authority,
                             and overall performance.
@@ -92,8 +92,8 @@
             <div class="flex items-center justify-between h-[300px]">
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] flex justify-center items-center">
                     <div class="text-[15px]">
-                        <p class="max-sm:text-[16px] text-xl text-black/70 font-bold">Technical Writing</p>
-                        <p>
+                        <h2 class="max-sm:text-[16px] text-xl text-black/70 font-bold">Technical Writing</h2>
+                        <p class="text-black/70">
                             I publish blog articles and handle knowledge sharing sections on topics relating
                             to frontend development, Rust programming.
                         </p>
@@ -105,14 +105,14 @@
                     <div class="w-2 h-2 p-1.5 bg-[#007bff] rounded-full"></div>
                 </div>
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] md:border-r-[2px] border-dashed border-[#007bff] max-xl:rounded-full xl:rounded-tl-[100%] lg:rounded-bl-[100%] relative">
-                    <img class="w-full max-lg:rounded-full xl:rounded-tl-[100%] xl:rounded-bl-[100%] h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/assets/img/technical_writing.webp" alt="Hossanadev | Blogging" />
+                    <img class="w-full max-lg:rounded-full xl:rounded-tl-[100%] xl:rounded-bl-[100%] h-full object-cover" src="<?php echo get_template_directory_uri(); ?>/images/technical_writing.webp" alt="Hossanadev | Blogging" />
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] bottom-[-15%] right-[-10%] rounded-full -z-10"></div>
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-[-10%] left-[-4%] rotate-[5deg] rounded -z-10"></div>
                 </div>
             </div>
         </section>
         <!-- Blog-->
-        <section class="px-[4%] md:px-[8%] my-8 lg:mt-28">
+<!--         <section class="px-[4%] md:px-[8%] my-8 lg:mt-28">
             <p class="text-xl text-[#007bff] font-bold text-center mb-5">Blog</p>
             <?php get_template_part('templates/temp/post', 'content'); ?>
             <div class="mt-4 flex items-center w-fit px-3 py-1 rounded">
@@ -123,5 +123,5 @@
                         'next_text' => _('<span class="text-[#007bff]"><ion-icon name="caret-forward-outline"></ion-icon></span>'),
                     )); ?>
             </div>
-        </section>
+        </section> -->
 <?php get_footer(); ?>

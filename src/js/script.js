@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     if (cv) {
         cv.addEventListener('click', () => {
-            var pdfUrl = 'http://localhost/wordpress/wp-content/uploads/2024/01/cv.pdf';
+            var pdfUrl = 'https://hossanadev.com/wp-content/uploads/2024/01/HOSSANA-CHUKWUNYERE.pdf';
             var a = document.createElement('a');
             a.download = 'hossana-chukwunyere.pdf';
             a.href = pdfUrl;

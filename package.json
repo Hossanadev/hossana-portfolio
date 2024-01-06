@@ -2,9 +2,9 @@
   "name": "hossana-portfolio",
   "version": "1.0.0",
   "description": "Hossana portfolio.",
-  "main": "dist/script.js",
+  "main": "src/js/script.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/main.css -o ./dist/style.css --watch",
+    "build": "npx tailwindcss -i style.css -o src/css/style.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

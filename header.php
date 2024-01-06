@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>">
 <head>
+   <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KYDF28BM7Z"></script>
+      <script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'G-KYDF28BM7Z');
+	 </script>
+    <!-- Google AdSense    -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4766897154846976"
+            crossorigin="anonymous">
+    </script>
     <meta name="robots" content="index, follow">
     <meta charset='<?php bloginfo('charset'); ?>'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Hossanadev - Software Engineer</title>
-    <meta name='description' content='Hossanadev | Software Engineer, Frontend Developer, and Web Designer.'>
+     <meta name='description' content='Hossanadev | Web Development, Mobile Application Dev, Blogging, Search Engine Optimization, Technical Writing, JavaScript and Rust Programming.'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="assets/img/favicon.png" rel="icon">
-    <?php wp_meta(); ?>
     <?php wp_head(); ?>
 </head>
 <body>
@@ -24,9 +34,9 @@
                     };
                   ?>
               </div>
-             <a href="<?php echo home_url(); ?>"><?php
+             <a href="<?php echo home_url(); ?>"><h1><?php
                  bloginfo('name');
-                 ?>
+                     ?> <span class="hidden">is the best web developer, software engineer in Nigeria 2024.</span></h1>
              </a>
         </div>
         <!-- navigation menu-->
@@ -53,7 +63,7 @@
     </div>
     <aside class="mobile-menu -translate-x-[-100%] duration-500 transition-all max-lg:block8 min-h-screen w-full h-screen bg-[#007bff] top-0 left-0 z-20 fixed">
         <div class="bg-black/80 w-full h-full relative">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Hossana.jpg" class="w-full h-full object-cover -z-10 absolute" alt="Hossanadev">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/Hossana.jpg" class="w-full h-full object-cover -z-10 absolute" alt="Hossanadev">
             <div class="text-white text-lg font-semibold absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
                 <?php
                 if (has_nav_menu('primary-menu')) {

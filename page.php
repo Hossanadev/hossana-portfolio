@@ -37,7 +37,7 @@
          <section class="my-8 lg:my-16">
             <div class="mt-5 flex items-center justify-between h-[300px]">
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] md:border-l-[2px] border-dashed border-[#007bff] max-xl:rounded-full xl:rounded-tr-full relative">
-                     <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="' . get_template_directory_uri() . '/assets/img/web_development.webp" alt="Hossanadev | Web development" />
+                     <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="' . get_template_directory_uri() . '/images/web_development.webp" alt="Hossanadev | Web development" />
                     <div class="absolute bg-blue-300/30 w-[200px] h-[200px] -top-5 -right-[5%] rounded-full -z-10"></div>
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-16 right-[-5%] rounded-full -z-10"></div>
                 </div>
@@ -47,8 +47,8 @@
                 </div>
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] flex justify-center items-center">
                     <div class="text-[15px]">
-                        <p class="max-sm:text-[16px] text-xl text-black/70 font-bold mb-1.5">Web Development</p>
-                        <p class="">
+                        <h2 class="max-sm:text-[16px] text-xl text-black/70 font-bold mb-1.5">Web Development</h2>
+                        <p class="text-black/70">
                             I develop websites, web apps
                             in a way that guarantees easy maintenance and scalability.
                             Smooth user experience, great performance
@@ -60,8 +60,8 @@
             <div class="flex items-center justify-between h-[300px]">
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] flex justify-center items-center">
                     <div class="text-[15px]">
-                        <p class="max-sm:text-[16px] text-xl text-black/70 font-bold mb-1.5">Mobile App Development</p>
-                        <p>
+                        <h2 class="max-sm:text-[16px] text-xl text-black/70 font-bold mb-1.5">Mobile App Development</h2>
+                        <p class="text-black/70">
                             I develop mobile apps that are user-friendly, interactive and easy to use.
                             The applications are optimized for both Android and iOS.
                         </p>
@@ -72,14 +72,14 @@
                     <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                 </div>
                 <div class="xl:w-[500px] overflow-none xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] md:border-r-[2px] border-dashed border-[#007bff] max-xl:rounded-full xl:rounded-tl-full relative">
-                        <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="' . get_template_directory_uri() . '/assets/img/mobile_development.svg" alt="Hossanadev | Mobile app development" />
+                        <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="' . get_template_directory_uri() . '/images/mobile_development.svg" alt="Hossanadev | Mobile app development" />
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-[-15%] right-[-6%] rounded -z-10"></div>
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-[-19%] right-[-10%] rounded -z-10"></div>
                 </div>
             </div>
             <div class="flex items-center justify-between h-[300px]">
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] md:border-l-[2px] border-dashed border-[#007bff] max-xl:rounded-full xl:rounded-tr-[100%] lg:rounded-br-[100%] relative">
-                        <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="' . get_template_directory_uri() . '/assets/img/blogging.png" alt="Hossanadev | Blogging and SEO" />
+                        <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="' . get_template_directory_uri() . '/images/blogging.png" alt="Hossanadev | Blogging and SEO" />
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-[-15%] max-sm:left-[-25%] left-[-10%] rounded -z-10 rotate-45"></div>
                     <div class="absolute bg-blue-300/30 max-sm:w-[150px] max-sm:h-[150px] w-[200px] h-[200px] top-[-25%] max-sm:top-[-15%] left-[5%] rounded-full -z-10"></div>
                 </div>
@@ -89,8 +89,8 @@
                 </div>
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] flex justify-center items-center">
                     <div class="text-[15px]">
-                        <p class="max-sm:text-[16px] text-xl text-black/70 font-bold">Blogging & SEO</p>
-                        <p>
+                        <h2 class="max-sm:text-[16px] text-xl text-black/70 font-bold">Blogging & SEO</h2>
+                        <p class="text-black/70">
                             With over 6 years of experience, I enhance website domain visibility,
                             keywords ranking, authority,
                             and overall performance.
@@ -101,8 +101,8 @@
             <div class="flex items-center justify-between h-[300px]">
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] flex justify-center items-center">
                     <div class="text-[15px]">
-                        <p class="max-sm:text-[16px] text-xl text-black/70 font-bold">Technical Writing</p>
-                        <p>
+                        <h2 class="max-sm:text-[16px] text-xl text-black/70 font-bold">Technical Writing</h2>
+                        <p class="text-black/70">
                             I publish blog articles and handle knowledge sharing sections on topics relating
                             to frontend development, Rust programming.
                         </p>
@@ -114,7 +114,7 @@
                     <div class="w-2 h-2 p-1.5 bg-[#007bff] rounded-full"></div>
                 </div>
                 <div class="xl:w-[500px] xl:h-[300px] max-sm:h-[150px] max-sm:w-[150px] h-[200px] w-[200px] md:border-r-[2px] border-dashed border-[#007bff] max-xl:rounded-full xl:rounded-tl-[100%] lg:rounded-bl-[100%] relative">
-                           <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="' . get_template_directory_uri() . '/assets/img/technical_writing.webp" alt="Hossanadev | Technical Writing" />
+                           <img class="w-full max-lg:rounded-full xl:rounded-tr-full h-full object-cover" src="' . get_template_directory_uri() . '/images/technical_writing.webp" alt="Hossanadev | Technical Writing" />
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] bottom-[-15%] right-[-10%] rounded-full -z-10"></div>
                     <div class="absolute bg-blue-300/30 w-[150px] h-[150px] top-[-10%] left-[-4%] rotate-[5deg] rounded -z-10"></div>
                 </div>
@@ -135,9 +135,9 @@
                         <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                     </div>
                     <div>
-                        <p class="font-medium text-black/80 -mt-2">2015 - 2021</p>
-                        <span class="text-black/60 font-semibold">Federal University of Technology, Owerri</span>
-                        <p class="text-black/70 text-lg font-bold">Materials and Metallurgical Engineering</p>
+                        <p class="font-medium text-black/80 text-[13px] md:text-[15px]">2015 - 2021</p>
+                        <span class="text-black/60 font-normal text-[13.5px] italic md:text-sm md:font-semibold">Federal University of Technology, Owerri</span>
+                        <p class="text-black/70 max-sm:text-[16px] text-lg font-bold">Materials and Metallurgical Engineering</p>
                         <span class="block text-black/60 font-normal text-sm">Grade: 4.06</span>
                         <span class="block text-black/60 font-normal text-sm pb-10">Bachelor of Engineering (Honours)</span>
                     </div>
@@ -150,9 +150,9 @@
                         <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                     </div>
                     <div>
-                        <p class="font-medium text-black/80 -mt-2">2022 - Present</p>
-                        <span class="text-black/60 font-semibold">Doftwerks West Africa Limited</span>
-                        <p class="text-black/70 text-lg font-bold">Frontend Engineer</p>
+                        <p class="font-medium text-black/80 text-[13px] md:text-[15px]">2022 - Present</p>
+                        <span class="text-black/60 font-normal text-[13.5px] italic md:text-sm md:font-semibold">Doftwerks West Africa Limited</span>
+                        <p class="text-black/70 text-[13.5px] md:text-[15px] font-medium lg:font-bold">Frontend Engineer</p>
                         <span class="block text-black/60 font-normal text-sm">Type: Hybrid</span>
                     </div>
                 </div>
@@ -162,9 +162,9 @@
                     <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                 </div>
                 <div>
-                    <p class="font-medium text-black/80 -mt-2">2023 - Present</p>
-                    <span class="text-black/60 font-semibold">Rust Codebase</span>
-                    <p class="text-black/70 text-lg font-bold">Technical Writer</p>
+                    <p class="font-medium text-[13px] md:text-[15px] text-black/80">2023 - Present</p>
+                    <span class="text-black/60 font-normal text-[13.5px] italic md:text-sm md:font-semibold">Rust Codebase</span>
+                    <p class="text-black/70 text-[13.5px] md:text-[15px] font-medium lg:font-bold">Technical Writer</p>
                     <span class="block text-black/60 font-normal text-sm">Type: Remote</span>
                 </div>
                 </div>
@@ -176,13 +176,13 @@
                     <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                 </div>
                 <div>
-                    <p class="font-medium text-black/80 -mt-2">Personal</p>
-                    <span class="text-black/60 font-semibold">
-                    <a class="text-[#0000FF]" href="https://github.com/hossanadev/guess-right">guess-right</a>,
-                    <a class="text-[#0000FF]" href="https://github.com/Hossanadev/url-shortener">url shortener</a>,
-                    <a class="text-[#0000FF]" href="https://github.com/Hossanadev/job-portal">jobs portal</a>,
-                    <a class="text-[#0000FF]" href="https://hossanadev.com">Hossana portfolio</a>,
-                    <a class="text-[#0000FF]" href="https://github.com/Hossanadev">others.</a>
+                    <p class="font-medium text-black/80">Personal</p>
+                    <span class="text-black/60 font-mormal md:font-semibold">
+                    <a class="text-[#0000FF] font-normal text-sm font-medium md:font-semibold" href="https://github.com/hossanadev/guess-right">guess-right</a>,
+                    <a class="text-[#0000FF] font-normal text-sm font-medium md:font-semibold" href="https://github.com/Hossanadev/url-shortener">url shortener</a>,
+                    <a class="text-[#0000FF] font-normal text-sm font-medium md:font-semibold" href="https://github.com/Hossanadev/job-portal">jobs portal</a>,
+                    <a class="text-[#0000FF] font-normal text-sm font-medium md:font-semibold" href="https://hossanadev.com">Hossana portfolio</a>,
+                    <a class="text-[#0000FF] font-normal text-sm font-medium md:font-semibold" href="https://github.com/Hossanadev">others.</a>
                     </span>
                 </div>
                 </div>
@@ -193,8 +193,8 @@
                     <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                 </div>
                 <div>
-                    <p class="font-medium text-black/80 -mt-2">Official</p>
-                    <span class="text-black/60 font-semibold">
+                    <p class="font-medium text-black/80">Official</p>
+                    <span class="text-black/60 font-medium md:font-semibold text-[13px]">
                       Private projects.
                     </span>
                 </div>
@@ -207,8 +207,8 @@
                     <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                 </div>
                 <div>
-                    <p class="font-medium text-black/80 -mt-2">Frontend</p>
-                    <span class="text-black/60 font-semibold">HTML5, CSS3, Javascript, Tailwind, TypeScript,
+                    <p class="font-medium text-black/80">Frontend</p>
+                    <span class="text-black/60 font-medium text-[13px] md:text-sm md:font-semibold">HTML5, CSS3, Javascript, Tailwind, TypeScript,
                         ReactJS, Next.js, React Native, Redux Toolkit.
                     </span>
                 </div>
@@ -220,8 +220,8 @@
                     <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                 </div>
                 <div>
-                    <p class="font-medium text-black/80 -mt-2">Backend</p>
-                    <span class="text-black/60 font-semibold">Rust, Actix Web, SQL, Diesel ORM.
+                    <p class="font-medium text-black/80">Backend</p>
+                    <span class="text-black/60 font-medium text-[13px] md:text-sm md:font-semibold">Rust, Actix Web, SQL, Diesel ORM.
                     </span>
                 </div>
                 </div>  
@@ -232,15 +232,15 @@
                     <div class="h-full border-[#e5e5e5] border-r-2 border-dashed"></div>
                 </div>
                 <div>
-                    <p class="font-medium text-black/80 -mt-2">Tools</p>
-                    <span class="text-black/60 font-semibold">IntelliJ, VS Code, Git, GitHub, Postman, Laragon, Xampp, WordPress (PHP).
+                    <p class="font-medium text-black/80">Tools</p>
+                    <span class="text-black/60 font-medium text-[13px] md:text-sm md:font-bold">IntelliJ, VS Code, Git, GitHub, Postman, Laragon, Xampp, WordPress (PHP).
                     </span>
                 </div>
                 </div>                
             </div>
-            <button id="download_cv" class="mt-4 py-1.5 bg-[#0000FF] flex items-center space-x-3 hover:bg-blue-800 text-[15px] font-semibold cursor-pointer transition-all duration-500 px-3.5 rounded-sm text-white">
-                 <ion-icon class="text-xl" name="return-down-forward-outline"></ion-icon>
-                 <span>Download CV</span>
+            <button id="download_cv" class="mt-4 py-1.5 flex items-center space-x-3 text-[15px] font-normal border border-[#e5e5e5] hover:bg-[#e5e5e5] shadow-sm md:font-semibold cursor-pointer transition-all duration-500 px-3.5 rounded-sm text-[#0000FF]">
+                 <ion-icon class="text-xl animate-ping" name="return-down-forward-outline"></ion-icon>
+                 <span class="max-md:text-xs">Download CV</span>
             </button>                
             </div>
             ';
